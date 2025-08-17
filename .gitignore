@@ -1,0 +1,37 @@
+
+# ------------------------
+# Python build artifacts
+# ------------------------
+__pycache__/          # Python automatically generates cache; not needed in repo
+*.pyc                 # Compiled Python bytecode files; can be regenerated
+
+# ------------------------
+# Virtual environments
+# ------------------------
+.venv/                # Local virtual environment folder (different per machine)
+env/                  # Alternative name for virtual environment folder
+
+# ------------------------
+# Data files
+# ------------------------
+data/raw/*            # Raw scraped data (large, always changing)
+data/processed/*      # Processed data outputs; can be regenerated from raw
+
+# ------------------------
+# Jupyter
+# ------------------------
+.ipynb_checkpoints/   # Auto-saved notebook checkpoints; unnecessary clutter
+
+# ------------------------
+# Secrets & Config
+# ------------------------
+*.env                 # Environment variable files (API keys, DB creds, secrets)
+
+# ------------------------
+# OS / Editor files
+# ------------------------
+.DS_Store             # macOS system file
+Thumbs.db             # Windows system file
+.vscode/              # Local VSCode settings
+*.log                 # Log files; not needed in repo
+

@@ -1,0 +1,13 @@
+
+requests
+beautifulsoup4
+scrapy
+playwright
+pandas
+sqlalchemy
+psycopg2-binary
+matplotlib
+seaborn
+jupyter
+pytest
+
